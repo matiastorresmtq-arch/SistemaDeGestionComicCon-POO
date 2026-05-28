@@ -25,5 +25,15 @@ public class Main {
         artista1.eliminarCategoria(animeCat);
         cosplayer1.eliminarCategoria(animeCat);
 
+        //Información de categoría:
+        System.out.println("-- Info de categorías --");
+        animeCat.mostrarInformacion();
+        arteCat.mostrarInformacion();
+        System.out.println();
+
+        // Presentaciones:
+        System.out.println("-- Presentaciones --");
+        cosplayer1.realizarPresentacion();
+        artista1.realizarPresentacion();
     }
 }

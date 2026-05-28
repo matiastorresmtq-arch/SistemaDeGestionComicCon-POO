@@ -20,7 +20,7 @@ public class Artista extends Persona implements Interactivable {
     @Override
     public void realizarPresentacion() {
         // TODO: Completar lógica método (simular presentación, mostrar portafolio y artbooks)
-
+        System.out.println(nombre + " hace su presentación de " + cantidadArtbooksPublicados + " artbooks.");
     }
 
     // Getters y Setters

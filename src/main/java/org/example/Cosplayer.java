@@ -19,6 +19,7 @@ public class Cosplayer extends Persona implements Interactivable {
     @Override
     public void realizarPresentacion() {
         // TODO: Completar lógica método (simular presentación e imprimir tiempo estimado de preparación)
+        System.out.println(nombre + " hace su presentación. Tiempo estimado: ");
     }
 
     // Getters y Setters
