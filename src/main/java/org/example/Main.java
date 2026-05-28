@@ -29,6 +29,11 @@ public class Main {
         arteCat.mostrarInformacion();
         System.out.println();
 
+        //Mostrar información de miembros:
+        System.out.println("-- Info de miembros --");
+        cosplayer1.mostrarInformacion();
+        artista1.mostrarInformacion();
+
         // Presentaciones:
         System.out.println("-- Presentaciones --");
         cosplayer1.realizarPresentacion();
