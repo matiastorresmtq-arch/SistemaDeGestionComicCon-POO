@@ -36,7 +36,7 @@ public class Main {
         artista1.mostrarInformacion();
 
         //Panelista:
-        panelPrincipal.agregarPanelista(comunidadAnime);
+        panelPrincipal.mostrarInformacion();
 
         // Presentaciones:
         System.out.println("-- Presentaciones --");
