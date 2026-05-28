@@ -17,7 +17,13 @@ public class Main {
 
         // --- SECCIÓN DE PRUEBAS ---
         // Ej: agregar personas a categorías, meter miembros a la agrupación, montar el panel y llamar a mostrarInformacion().
-//swbadkdbskaasafdfadsddfadf
+
+        comunidadAnime.agregarMiembro(cosplayer1);
+        comunidadAnime.agregarMiembro(artista1);
+        cosplayer1.agregarCategoria(animeCat);
+        artista1.agregarCategoria(animeCat);
+        artista1.eliminarCategoria(animeCat);
+        cosplayer1.eliminarCategoria(animeCat);
 
     }
 }

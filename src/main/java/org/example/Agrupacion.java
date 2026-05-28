@@ -15,15 +15,21 @@ public class Agrupacion {
     }
 
     public void agregarMiembro(Persona persona) {
-        // TODO: Completar lógica método
+        miembros.add(persona);
+        System.out.println("Agregando Miembro " + persona.getNombre());
     }
 
     public void eliminarMiembro(Persona persona) {
-        // TODO: Completar lógica método
+        miembros.remove(persona);
+        System.out.println("Eliminando Miembro " + persona.getNombre());
     }
 
     public void mostrarInformacion() {
         // TODO: Completar lógica método (detalles del grupo, su categoría y recorrer la lista de miembros)
+        System.out.println("Lista de miembros: ");
+        for (int i = 0; i<miembros.size(); i++) {
+            System.out.println((i + 1) + ". " + miembros.get(i).getNombre() + " - " + miembros.get(i).getCategorias());
+        }
     }
 
     // Getters y Setters
