@@ -22,8 +22,6 @@ public class Main {
         comunidadAnime.agregarMiembro(artista1);
         cosplayer1.agregarCategoria(animeCat);
         artista1.agregarCategoria(animeCat);
-        artista1.eliminarCategoria(animeCat);
-        cosplayer1.eliminarCategoria(animeCat);
 
         //Información de categoría:
         System.out.println("-- Info de categorías --");
