@@ -22,6 +22,7 @@ public class Main {
         comunidadAnime.agregarMiembro(artista1);
         cosplayer1.agregarCategoria(animeCat);
         artista1.agregarCategoria(arteCat);
+        panelPrincipal.agregarPanelista(comunidadAnime);
 
         //Información de categoría:
         System.out.println("-- Info de categorías --");
@@ -33,6 +34,9 @@ public class Main {
         System.out.println("-- Info de miembros --");
         cosplayer1.mostrarInformacion();
         artista1.mostrarInformacion();
+
+        //Panelista:
+        panelPrincipal.agregarPanelista(comunidadAnime);
 
         // Presentaciones:
         System.out.println("-- Presentaciones --");
